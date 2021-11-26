@@ -1,7 +1,7 @@
 print("Quadrant bearing to Azimuth Converter")
 number=input("Enter Quadrant bearing: ")
 if number[0]=="N" and number[-1]=="E":
-    print(number[1:-1])
+    print("Azimuth: "+str(number[1:-1]))
 elif number[0]=="S" and number[-1]=="E":
     a=float(number[1:-1])
     print("Azimuth: "+str(180-a))
